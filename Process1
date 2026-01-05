@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en ">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name ="viewport" content="width=device=width, initial-scale=1.0>
+    <title>
+    AI Image generator Website using HTML, CSS and JavaScript 
+    </title>
+    <link rel = "stylesheet" href ="style.css">
+  </head>
+  <body>
+  <div class ="main-container">
+  <div class="container">
+  <div class="headings-container">
+  <h1>EMBERQUEST SOFTWARE COMPANY 
+  </h1>
+  <h2 class ="heading">
+  HELLO EVERYONE CREATE IMAGE ONCE FOR ME START
+  </h2>
+  <h5>
+  </div>
+  <div id ="generate-image-form" class="form-container">
+  <form class="my-form">
+  
+</html>
