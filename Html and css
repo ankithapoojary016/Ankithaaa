@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Login& Registration
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+      <form id="login-form">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account? <a href="
+      <form id="register-form" style="display:none;">
+        <h2>Register</h2>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+
+
+
+[06/01, 5:41 pm] !!🕊️: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Login& Registration
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+      <form id="login-form">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account? <a href="
+      <form id="register-form" style="display:none;">
+        <h2>Register</h2>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
+[06/01, 5:42 pm] !!🕊️: body{
+  font-family: Arial,
+  sans-serif;
+  background-color:#f2f2f2;
+}
+. container {
+  width:300px;
+  margin:50px auto;
+  padding:20px;
+  background-color:#fff;
+  border:1px solid #ddd;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+h2{
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  margin-bottom:10px;
+  padding: 10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+button[type="submit"]{
+  padding:10px;
+  background-color: #4CAF50;
+  color:#fff;
+  border:none;
+  border-radius: 5px;
+  cusor:pointer;
+}
+button[type="submit"]:hover{
+  background-color: #3e8e41;
+}
+a{
+  text-decoration: none; 
+  color:#4CAF50;
+}
+a:hover{
+  color: #3e8e41;
+}
