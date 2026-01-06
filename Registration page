@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>Register</h2>
+
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#message {
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}
+
+
+
+
+document.getElementById("registerForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const password = document.getElementById("password").value;
+  const confirmPassword = document.getElementById("confirmPassword").value;
+  const message = document.getElementById("message");
+
+  if (password !== confirmPassword) {
+    message.textContent = "Passwords do not match!";
+    return;
+  }
+
+  message.style.color = "green";
+  message.textContent = "Registration successful!";
+});
